@@ -1,0 +1,177 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #0056c2;
+}
+
+
+.container,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+  padding: 80px 10%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+.btn {
+  background-color: #0077ff;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #005fcb;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #0077ff;
+  border: 2px solid #0077ff;
+}
+
+.btn-secondary:hover {
+  background-color: #0077ff;
+  color: white;
+}
+
+
+.image-container,
+.image-container2 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.image-container img,
+.image-container2 img {
+  width: 400px;
+  max-width: 100%;
+}
+
+
+.container3 {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.container3 .feature {
+  margin-top: 40px;
+}
+
+.container3 img {
+  width: 100px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container3 span {
+  font-weight: 700;
+  color: #0077ff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.container4,
+.container5 {
+  text-align: center;
+}
+
+.container4 img,
+.container5 img {
+  width: 300px;
+  margin-top: 30px;
+}
+
+
+.container6 {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 6px rgba(0, 119, 255, 0.2);
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
